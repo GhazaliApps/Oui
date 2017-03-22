@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{D0185072-0357-4B5F-963C-DDD85B568CFA}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OuiHop</RootNamespace>
+    <AssemblyName>OuiHop</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>OuiHop_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en-US</MultilingualFallbackLanguage>
+    <TranslationReport Condition="'$(Configuration)' == 'Release'">true</TranslationReport>
+    <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="project.json" />
+    <PRIResource Include="Strings\fr-FR\Resources.resw" />
+    <PRIResource Include="Strings\en-US\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Database.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Controllers\DeviceInfo.cs" />
+    <Compile Include="Controllers\Operations\BaseOperation.cs" />
+    <Compile Include="Helpers\ByteArrayToBitmapConverter.cs" />
+    <Compile Include="Helpers\colors.cs" />
+    <Compile Include="Helpers\DeviceInfo.cs" />
+    <Compile Include="Helpers\Enums.cs" />
+    <Compile Include="Helpers\ExtendedComboBox.cs" />
+    <Compile Include="Helpers\ImageHelper.cs" />
+    <Compile Include="Helpers\LocationManager.cs" />
+    <Compile Include="Helpers\ValidationManager.cs" />
+    <Compile Include="Interfaces\IOperationObserver.cs" />
+    <Compile Include="Interfaces\IOperationSubject.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AppManager.cs" />
+    <Compile Include="Models\ExceptionClass.cs" />
+    <Compile Include="Models\facebookUser.cs" />
+    <Compile Include="Models\ForgetPassUser.cs" />
+    <Compile Include="Models\SignInResponse\SignIn.cs" />
+    <Compile Include="Models\SignInResponse\user.cs" />
+    <Compile Include="Models\SignUpUser.cs" />
+    <Compile Include="Models\SignUp\AddressSearch.cs" />
+    <Compile Include="Models\SignUp\Groups.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestPage.xaml.cs">
+      <DependentUpon>TestPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GetStartedDriver\GetStarted.xaml.cs">
+      <DependentUpon>GetStarted.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GetStartedPedestarian\GetStarted.xaml.cs">
+      <DependentUpon>GetStarted.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MapView\MainMap.xaml.cs">
+      <DependentUpon>MainMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModeSelection\ModeSelectionPage.xaml.cs">
+      <DependentUpon>ModeSelectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OuiSplash\OuiSplashScreen.xaml.cs">
+      <DependentUpon>OuiSplashScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SignIn\ForgetPassword.xaml.cs">
+      <DependentUpon>ForgetPassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SignIn\SignInPage.xaml.cs">
+      <DependentUpon>SignInPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SignUp.xaml.cs">
+      <DependentUpon>SignUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WebPage\Web.xaml.cs">
+      <DependentUpon>Web.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="OuiHop_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\cars.txt" />
+    <Content Include="Data\colors.txt" />
+    <Content Include="Data\ColorsL.txt" />
+    <Content Include="Data\years.txt" />
+    <Content Include="Images\GetStarted\Driver\onBoardingD1\Group 10.png" />
+    <Content Include="Images\GetStarted\Driver\onBoardingD1\Group 100.png" />
+    <Content Include="Images\GetStarted\Driver\onBoardingD2\Group 2.png" />
+    <Content Include="Images\GetStarted\Driver\onBoardingD2\Group 5.png" />
+    <Content Include="Images\GetStarted\Driver\onBoardingD3\Facebook-color.png" />
+    <Content Include="Images\GetStarted\Driver\onBoardingD3\Group 2.png" />
+    <Content Include="Images\GetStarted\Driver\onBoardingD3\mail.png" />
+    <Content Include="Images\GetStarted\OuiLogo\Page 1.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS1\Combined Shape Copy 2.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS1\Combined Shape Copy.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS1\Group 3.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS1\Group.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS2\Group 3.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS2\Group 5.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS3\Facebook-color.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS3\Group 5.png" />
+    <Content Include="Images\GetStarted\Pedestarian\OnBoardingS3\Group.png" />
+    <Content Include="Images\GetStarted\ProgressBar\Group3.png" />
+    <Content Include="Images\GetStarted\ProgressBar\Group1.png" />
+    <Content Include="Images\GetStarted\ProgressBar\Group2.png" />
+    <Content Include="Images\ModeSelection\car.png" />
+    <Content Include="Images\ModeSelection\Group 2.png" />
+    <Content Include="Images\ModeSelection\Group 3.png" />
+    <Content Include="Images\ModeSelection\user.png" />
+    <Content Include="Images\SignUp\page1\Enveloppe.png" />
+    <Content Include="Images\SignUp\page1\Group.png" />
+    <Content Include="Images\SignUp\page1\Shape.png" />
+    <Content Include="Images\SignUp\page1\Shape2.png" />
+    <Content Include="Images\SignUp\page1\Shape3.png" />
+    <Content Include="Images\SignUp\page2\Group 3.png" />
+    <Content Include="Images\SignUp\page2\iconmonstr calendar 5.png" />
+    <Content Include="Images\SignUp\page2\male-and-female.png" />
+    <Content Include="Images\SignUp\page3\Fill 1 Copy.png" />
+    <Content Include="Images\SignUp\page3\Fill 1.png" />
+    <Content Include="Images\SignUp\page4\noun_72.png" />
+    <Content Include="Images\SignUp\Validation\cross.png" />
+    <Content Include="Images\SignUp\Validation\true.png" />
+    <Content Include="Images\SplashScreen\Combined Shape Copy 2.png" />
+    <Content Include="Images\SplashScreen\Combined Shape Copy.png" />
+    <Content Include="Images\SplashScreen\illustration.png" />
+    <Content Include="Images\SplashScreen\Page 1.png" />
+    <Content Include="Images\SplashScreen\Splash.PNG" />
+    <Content Include="Images\StepLine\Step line1.png" />
+    <Content Include="Images\StepLine\Step line2.png" />
+    <Content Include="Images\StepLine\Step line3.png" />
+    <Content Include="Images\StepLine\Step line4.png" />
+    <Content Include="Images\StepLine\Step lineP1.png" />
+    <Content Include="Images\StepLine\Step lineP2.png" />
+    <Content Include="Images\StepLine\Step lineP3.png" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TestPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GetStartedDriver\GetStarted.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GetStartedPedestarian\GetStarted.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MapView\MainMap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ModeSelection\ModeSelectionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OuiSplash\OuiSplashScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SignIn\ForgetPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SignIn\SignInPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SignUp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WebPage\Web.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\OuiHop.fr-FR.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OuiHop.Library\OuiHop.Library.csproj">
+      <Project>{d2b03ae3-e42d-48d3-81a3-5efbd65f7590}</Project>
+      <Name>OuiHop.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="WindowsDesktop, Version=10.0.10240.0">
+      <Name>Windows Desktop Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.PriResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

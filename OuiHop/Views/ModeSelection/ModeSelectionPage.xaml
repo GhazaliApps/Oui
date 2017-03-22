@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="OuiHop.Views.ModeSelection.ModeSelectionPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OuiHop.Views.ModeSelection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF12C2E2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Source="/Images/Splashscreen/Combined Shape Copy.png" Height="39" Width="58" HorizontalAlignment="Left" Margin="0,20,0,0"></Image>
+        <Image Grid.Row="1" Source="/Images/Splashscreen/Combined Shape Copy 2.png" Height="39" Width="58" HorizontalAlignment="Right" Margin="0,20,0,0"></Image>
+        <Image Grid.Row="0" Source="/Images/Splashscreen/Page 1.png" Height="73" Width="90" HorizontalAlignment="Center" Margin="0,30,0,0"></Image>
+        <TextBlock Grid.Row="3" x:Uid="SelectionText" TextWrapping="Wrap" FontFamily="open sans" Foreground="White" Width="350" FontSize="18" TextAlignment="Center"></TextBlock>
+        <RelativePanel 
+                    Name="Driver"
+                    Background="White"
+                    Margin="50,10,50,0"
+                    Height="60"
+                    CornerRadius="25"
+                    Grid.Row="4"
+            Tapped="Driver_Tapped_1" VerticalAlignment="Top">
+            <Image Name="DriverButtonImage"
+                       RelativePanel.AlignLeftWithPanel="True"
+                       RelativePanel.AlignVerticalCenterWithPanel="True"
+                       Source="/Images/ModeSelection/car.png"
+                       Visibility="Visible"
+                       Height="26"
+                       Margin="20,0,0,0"></Image>
+            <TextBlock 
+                x:Uid="DriverButtonText"
+                RelativePanel.AlignHorizontalCenterWithPanel="True"
+                RelativePanel.AlignVerticalCenterWithPanel="True"
+                 FontWeight="Bold"
+                FontFamily="open sans"
+                Foreground="#FF12C2E2"
+                Margin="5,0,0,0">
+            </TextBlock>
+        </RelativePanel>
+        <RelativePanel Name="User"
+                    Background="White"
+                    Margin="50 10 50 10"
+                    Height="60"
+                    CornerRadius="25"
+                    Grid.Row="5"
+            Tapped="User_Tapped">
+            <Image Name="PedestarianButtonImage"
+                       RelativePanel.AlignLeftWithPanel="True"
+                       RelativePanel.AlignVerticalCenterWithPanel="True"
+                       Source="/Images/ModeSelection/user.png"
+                       Visibility="Visible"
+                       Height="41"
+                       Margin="22,0,0,0"></Image>
+            <TextBlock 
+                x:Uid="PedestarianButtonText"
+                RelativePanel.AlignHorizontalCenterWithPanel="True"
+                RelativePanel.AlignVerticalCenterWithPanel="True"
+                FontWeight="Bold"
+                FontFamily="open sans"
+                Foreground="#FF12C2E2"
+                Margin="5,0,0,0">
+            </TextBlock>
+        </RelativePanel>
+        <TextBlock Grid.Row="6"
+                   x:Uid="SelectionInfo" TextWrapping="Wrap" FontFamily="open sans" Foreground="White" Width="350" FontSize="16" TextAlignment="Center"></TextBlock>
+        <Image Grid.Row="7" 
+               Source="/Images/Splashscreen/illustration.png" 
+               HorizontalAlignment="Stretch" 
+               VerticalAlignment="Bottom"></Image>
+        <StackPanel Grid.Row="7"
+                    Orientation="Horizontal" 
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Center">
+            <TextBlock  x:Uid="OuiHopTCs" 
+                        FontFamily="open sans" 
+                        Foreground="White" 
+                        FontSize="12"
+                        Margin="0,0,0,5"
+                        VerticalAlignment="Bottom"></TextBlock>
+            <HyperlinkButton Name="TermsLink"
+                             Content=" OuiHop T&amp;Cs"
+                             Click="TermsLink_Click"
+                             FontSize="12"
+                             FontFamily="open sans"
+                             Foreground="White"
+                             VerticalAlignment="Bottom">
+            </HyperlinkButton>
+        </StackPanel>
+    </Grid>
+</Page>

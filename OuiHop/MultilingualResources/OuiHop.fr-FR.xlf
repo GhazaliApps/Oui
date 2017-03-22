@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="OUIHOP/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="OUIHOP/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="mail.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="translated">Email</target>
+        </trans-unit>
+        <trans-unit id="pass.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Password (min 4 characters)</source>
+          <target state="final" state-qualifier="mt-suggestion">Mot de passe (min 4 caractères)</target>
+        </trans-unit>
+        <trans-unit id="Country.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Country</source>
+          <target state="final" state-qualifier="tm-suggestion">Pays</target>
+        </trans-unit>
+        <trans-unit id="Mobile.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Mobile Number</source>
+          <target state="translated">Numéro de téléphone</target>
+        </trans-unit>
+        <trans-unit id="SponsorCode.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Sponsor code (optional)</source>
+          <target state="translated">Code parrain (optionnel)</target>
+        </trans-unit>
+        <trans-unit id="NewsMessage.Text" translate="yes" xml:space="preserve">
+          <source>I want to be kept informed on services news and other users experiences</source>
+          <target state="final" state-qualifier="mt-suggestion">Je veux être tenu informé sur l’actualité des services et les expériences des autres utilisateurs</target>
+        </trans-unit>
+        <trans-unit id="FN.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <target state="final" state-qualifier="tm-suggestion">Prénom</target>
+        </trans-unit>
+        <trans-unit id="LN.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <target state="final" state-qualifier="tm-suggestion">Nom</target>
+        </trans-unit>
+        <trans-unit id="PicDescription.Text" translate="yes" xml:space="preserve">
+          <source>Add a picture in your profile </source>
+          <target state="final" state-qualifier="mt-suggestion">Ajouter une photo dans votre profil </target>
+        </trans-unit>
+        <trans-unit id="Gender.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Gender</source>
+          <target state="final" state-qualifier="tm-suggestion">Sexe</target>
+        </trans-unit>
+        <trans-unit id="EditPicDescription.Text" translate="yes" xml:space="preserve">
+          <source>Edit your Profile Picture</source>
+          <target state="final" state-qualifier="mt-suggestion">Modifier votre photo de profil</target>
+        </trans-unit>
+        <trans-unit id="pickPicture.Text" translate="yes" xml:space="preserve">
+          <source>Choose picture from gallery</source>
+          <target state="final" state-qualifier="mt-suggestion">Choisissez la photo de la Galerie</target>
+        </trans-unit>
+        <trans-unit id="takePicture.Text" translate="yes" xml:space="preserve">
+          <source>Take a picture</source>
+          <target state="final" state-qualifier="tm-suggestion">Prendre une photo</target>
+        </trans-unit>
+        <trans-unit id="Man.Content" translate="yes" xml:space="preserve">
+          <source>MALE</source>
+          <target state="translated" state-qualifier="mt-suggestion">MÂLE</target>
+        </trans-unit>
+        <trans-unit id="Woman.Content" translate="yes" xml:space="preserve">
+          <source>WOMAN</source>
+          <target state="translated" state-qualifier="mt-suggestion">FEMME</target>
+        </trans-unit>
+        <trans-unit id="cancelPicture.Text" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final" state-qualifier="tm-suggestion">Annuler</target>
+        </trans-unit>
+        <trans-unit id="Year.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>year</source>
+          <target state="final" state-qualifier="tm-suggestion">année</target>
+        </trans-unit>
+        <trans-unit id="CarsBrands.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Manufacturer</source>
+          <target state="final" state-qualifier="tm-suggestion">Fabricant</target>
+        </trans-unit>
+        <trans-unit id="carModel.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Model</source>
+          <target state="final" state-qualifier="tm-suggestion">Modèle</target>
+        </trans-unit>
+        <trans-unit id="carPlate.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Registration plate</source>
+          <target state="final" state-qualifier="mt-suggestion">Plaque d’immatriculation</target>
+        </trans-unit>
+        <trans-unit id="FirstPedDes.Text" translate="yes" xml:space="preserve">
+          <source>Get access to the driver journey available around you in real-time</source>
+          <target state="final" state-qualifier="mt-suggestion">Accédez au voyage pilote disponible autour de vous en temps réel</target>
+        </trans-unit>
+        <trans-unit id="SecondPedDes.Text" translate="yes" xml:space="preserve">
+          <source>Get access to the driver journey available around you in real-time</source>
+          <target state="final" state-qualifier="mt-suggestion">Accédez au voyage pilote disponible autour de vous en temps réel</target>
+        </trans-unit>
+        <trans-unit id="ThirdPedDes.Text" translate="yes" xml:space="preserve">
+          <source>3 free trip/day</source>
+          <target state="final" state-qualifier="mt-suggestion">3 jour/voyage gratuit</target>
+        </trans-unit>
+        <trans-unit id="FirstDriverDes.Text" translate="yes" xml:space="preserve">
+          <source>Enter your destination in OuiHop’ and then launch your regular GPS</source>
+          <target state="final" state-qualifier="mt-suggestion">Entrez votre destination en OuiHop' et ensuite lancer votre GPS réguliers</target>
+        </trans-unit>
+        <trans-unit id="SecondDriverDes.Text" translate="yes" xml:space="preserve">
+          <source>Receive pedestrian’s ride request while driving</source>
+          <target state="final" state-qualifier="mt-suggestion">Recevoir la demande de trajet piéton pendant que vous conduisez</target>
+        </trans-unit>
+        <trans-unit id="ThirdDriverDes.Text" translate="yes" xml:space="preserve">
+          <source>While driving, you earn hopiz to be redeemed against vouchers</source>
+          <target state="final" state-qualifier="mt-suggestion">Pendant que vous conduisez, vous gagnez des hopiz pour être échangés contre des bons d’échange</target>
+        </trans-unit>
+        <trans-unit id="SelectionText.Text" translate="yes" xml:space="preserve">
+          <source>Are you rather ?</source>
+          <target state="final" state-qualifier="mt-suggestion">Vous êtes plutôt ?</target>
+        </trans-unit>
+        <trans-unit id="SelectionInfo.Text" translate="yes" xml:space="preserve">
+          <source>You can change your choice at anytime in the menu</source>
+          <target state="final" state-qualifier="mt-suggestion">Vous pouvez modifier vos choix à tout moment dans le menu</target>
+        </trans-unit>
+        <trans-unit id="OuiHopTCs.Text" translate="yes" xml:space="preserve">
+          <source>Creating an account means your full acceptance of the  </source>
+          <target state="final" state-qualifier="mt-suggestion">Créer un compte signifie votre pleine acceptation de la  </target>
+        </trans-unit>
+        <trans-unit id="BusinessCar.Text" translate="yes" xml:space="preserve">
+          <source>Is it a business car ?</source>
+          <target state="final" state-qualifier="mt-suggestion">Est-ce une voiture ?</target>
+        </trans-unit>
+        <trans-unit id="Color.Text" translate="yes" xml:space="preserve">
+          <source>Color</source>
+          <target state="final" state-qualifier="tm-suggestion">Color</target>
+        </trans-unit>
+        <trans-unit id="HomeAddressSearch.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>City, zipcode, street</source>
+          <target state="final" state-qualifier="mt-suggestion">Ville, code postal, rue</target>
+        </trans-unit>
+        <trans-unit id="HomeText.Text" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="final" state-qualifier="tm-suggestion">Accueil</target>
+        </trans-unit>
+        <trans-unit id="partnerQuestion.Text" translate="yes" xml:space="preserve">
+          <source>Are you working in a OuiHop’s partner site ?</source>
+          <target state="final" state-qualifier="mt-suggestion">Vous travaillez dans le site partenaire d’un OuiHop ?</target>
+        </trans-unit>
+        <trans-unit id="ComapnyText.Text" translate="yes" xml:space="preserve">
+          <source>Comapny</source>
+          <target state="final" state-qualifier="mt-suggestion">Comapny</target>
+        </trans-unit>
+        <trans-unit id="ComapnyAddressSearch.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>City, zipcode, street</source>
+          <target state="final" state-qualifier="mt-suggestion">Ville, code postal, rue</target>
+        </trans-unit>
+        <trans-unit id="Comapnies.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Company/Campus</source>
+          <target state="final" state-qualifier="mt-suggestion">Société/Campus</target>
+        </trans-unit>
+        <trans-unit id="Fotitle.Text" translate="yes" xml:space="preserve">
+          <source>ADD A CAR</source>
+          <target state="translated" state-qualifier="mt-suggestion">AJOUTER UNE VOITURE</target>
+        </trans-unit>
+        <trans-unit id="Ftitle.Text" translate="yes" xml:space="preserve">
+          <source>REGISTRATION</source>
+          <target state="translated" state-qualifier="tm-suggestion">INSCRIPTION</target>
+        </trans-unit>
+        <trans-unit id="Stitle.Text" translate="yes" xml:space="preserve">
+          <source>WHO ARE YOU ?</source>
+          <target state="final" state-qualifier="mt-suggestion">Qui es-tu ?</target>
+        </trans-unit>
+        <trans-unit id="Ttitle.Text" translate="yes" xml:space="preserve">
+          <source>HOME / WORK</source>
+          <target state="translated"> LE TRAVAIL</target>
+        </trans-unit>
+        <trans-unit id="faceButtonText.Text" translate="yes" xml:space="preserve">
+          <source>Sign in with your</source>
+          <target state="translated" state-qualifier="mt-suggestion">Connectez-vous à l’aide votre</target>
+        </trans-unit>
+        <trans-unit id="UserEmailText.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>email address ...</source>
+          <target state="translated" state-qualifier="mt-suggestion">adresse e-mail...</target>
+        </trans-unit>
+        <trans-unit id="UserPassword.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>password ...</source>
+          <target state="translated" state-qualifier="mt-suggestion">mot de passe...</target>
+        </trans-unit>
+        <trans-unit id="signinText.Text" translate="yes" xml:space="preserve">
+          <source>Sign In With your mail</source>
+          <target state="translated" state-qualifier="mt-suggestion">Dans le signe de votre courrier</target>
+        </trans-unit>
+        <trans-unit id="NoaccountText.Content" translate="yes" xml:space="preserve">
+          <source>No Account yet ?</source>
+          <target state="translated" state-qualifier="mt-suggestion">Pas encore de compte ?</target>
+        </trans-unit>
+        <trans-unit id="ForgetPassTitle.Text" translate="yes" xml:space="preserve">
+          <source>FORGET PASSWORD</source>
+          <target state="final" state-qualifier="mt-suggestion">OUBLIÉ MOT DE PASSE</target>
+        </trans-unit>
+        <trans-unit id="sumbitButton.Text" translate="yes" xml:space="preserve">
+          <source>Submit</source>
+          <target state="translated" state-qualifier="tm-suggestion">Envoyer</target>
+        </trans-unit>
+        <trans-unit id="WebBrowserTitle.Text" translate="yes" xml:space="preserve">
+          <source>Terms &amp; Condations</source>
+          <target state="translated">Terms &amp;Condations</target>
+        </trans-unit>
+        <trans-unit id="DriverButtonText.Text" translate="yes" xml:space="preserve">
+          <source>Driver</source>
+          <target state="translated">Conducteur </target>
+        </trans-unit>
+        <trans-unit id="PedestarianButtonText.Text" translate="yes" xml:space="preserve">
+          <source>Pedestrian</source>
+          <target state="translated" state-qualifier="tm-suggestion">Piéton</target>
+        </trans-unit>
+        <trans-unit id="GetEmailButtonText.Text" translate="yes" xml:space="preserve">
+          <source>Sign In With your mail</source>
+          <target state="translated" state-qualifier="mt-suggestion">Dans le signe de votre courrier</target>
+        </trans-unit>
+        <trans-unit id="GetfaceButtonText.Text" translate="yes" xml:space="preserve">
+          <source>Sign in with your</source>
+          <target state="final" state-qualifier="mt-suggestion">Connectez-vous à l’aide votre</target>
+        </trans-unit>
+        <trans-unit id="SignInTerms.Text" translate="yes" xml:space="preserve">
+          <source>Creating an account means your full acceptance of the</source>
+          <target state="translated" state-qualifier="mt-suggestion">Créer un compte signifie votre pleine acceptation de la</target>
+        </trans-unit>
+        <trans-unit id="HaveAccount.Content" translate="yes" xml:space="preserve">
+          <source>I already have an account</source>
+          <target state="translated" state-qualifier="mt-suggestion">J’ai déjà un compte</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

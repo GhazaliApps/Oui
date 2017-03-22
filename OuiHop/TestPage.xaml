@@ -1,0 +1,88 @@
+﻿<Page
+    x:Class="OuiHop.TestPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OuiHop.Helpers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:fbsdk="using:Facebook"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="FBLoginButton" Click="FBLoginButton_Click" Content="Login" />
+
+
+        <!-- <canvas:CanvasControl Draw="CanvasControl_Draw" ClearColor="CornflowerBlue"/>
+        
+        <GridView x:Name="colorList" 
+                  SelectionChanged="colorList_SelectionChanged" 
+                  Background="Transparent">
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#000000"/>
+            </GridViewItem>
+            <GridViewItem>        
+                <Ellipse Width="70" Height="70" Fill="#6F7179"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#B8B8B8 "/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#ffffff"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#a1211a"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#e74c3c"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#1f255b"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#3498db"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#76b2d6"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#e67e22"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#f1c40f"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#fbffb9"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#26723b"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#55a64a"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#7F007F" />
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#ea879a"/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#ead08d "/>
+            </GridViewItem>
+            <GridViewItem>
+                <Ellipse Width="70" Height="70" Fill="#703112"/>
+            </GridViewItem>
+        </GridView>
+        <FlipView SelectionChanged="FlipView_SelectionChanged">
+            <StackPanel>
+                <Image Source="Images/aboutUsFBIcon@2x.png"></Image>
+                <Button HorizontalAlignment="Center" Width="200" Height="50" Content="Main Page" Name="Second" Click="Second_Click"></Button>
+            </StackPanel>
+            <Button HorizontalAlignment="Center" Width="200" Height="50" Content="Main Page" Name="Main" Click="Main_Click"></Button>
+        </FlipView>-->
+        <StackPanel>
+        <TextBlock Name="Result" TextWrapping="Wrap"></TextBlock>
+        <TextBlock Name="ResponseStatus"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

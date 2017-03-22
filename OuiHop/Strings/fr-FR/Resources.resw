@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mail.PlaceholderText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="pass.PlaceholderText" xml:space="preserve">
+    <value>Mot de passe (min 4 caractères)</value>
+  </data>
+  <data name="Country.PlaceholderText" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="Mobile.PlaceholderText" xml:space="preserve">
+    <value>Numéro de téléphone</value>
+  </data>
+  <data name="SponsorCode.PlaceholderText" xml:space="preserve">
+    <value>Code parrain (optionnel)</value>
+  </data>
+  <data name="NewsMessage.Text" xml:space="preserve">
+    <value>Je veux être tenu informé sur l’actualité des services et les expériences des autres utilisateurs</value>
+  </data>
+  <data name="FN.PlaceholderText" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="LN.PlaceholderText" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="PicDescription.Text" xml:space="preserve">
+    <value>Ajouter une photo dans votre profil </value>
+  </data>
+  <data name="Gender.PlaceholderText" xml:space="preserve">
+    <value>Sexe</value>
+  </data>
+  <data name="EditPicDescription.Text" xml:space="preserve">
+    <value>Modifier votre photo de profil</value>
+  </data>
+  <data name="pickPicture.Text" xml:space="preserve">
+    <value>Choisissez la photo de la Galerie</value>
+  </data>
+  <data name="takePicture.Text" xml:space="preserve">
+    <value>Prendre une photo</value>
+  </data>
+  <data name="Man.Content" xml:space="preserve">
+    <value>MÂLE</value>
+  </data>
+  <data name="Woman.Content" xml:space="preserve">
+    <value>FEMME</value>
+  </data>
+  <data name="cancelPicture.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Year.PlaceholderText" xml:space="preserve">
+    <value>année</value>
+  </data>
+  <data name="CarsBrands.PlaceholderText" xml:space="preserve">
+    <value>Fabricant</value>
+  </data>
+  <data name="carModel.PlaceholderText" xml:space="preserve">
+    <value>Modèle</value>
+  </data>
+  <data name="carPlate.PlaceholderText" xml:space="preserve">
+    <value>Plaque d’immatriculation</value>
+  </data>
+  <data name="FirstPedDes.Text" xml:space="preserve">
+    <value>Accédez au voyage pilote disponible autour de vous en temps réel</value>
+  </data>
+  <data name="SecondPedDes.Text" xml:space="preserve">
+    <value>Accédez au voyage pilote disponible autour de vous en temps réel</value>
+  </data>
+  <data name="ThirdPedDes.Text" xml:space="preserve">
+    <value>3 jour/voyage gratuit</value>
+  </data>
+  <data name="FirstDriverDes.Text" xml:space="preserve">
+    <value>Entrez votre destination en OuiHop' et ensuite lancer votre GPS réguliers</value>
+  </data>
+  <data name="SecondDriverDes.Text" xml:space="preserve">
+    <value>Recevoir la demande de trajet piéton pendant que vous conduisez</value>
+  </data>
+  <data name="ThirdDriverDes.Text" xml:space="preserve">
+    <value>Pendant que vous conduisez, vous gagnez des hopiz pour être échangés contre des bons d’échange</value>
+  </data>
+  <data name="SelectionText.Text" xml:space="preserve">
+    <value>Vous êtes plutôt ?</value>
+  </data>
+  <data name="SelectionInfo.Text" xml:space="preserve">
+    <value>Vous pouvez modifier vos choix à tout moment dans le menu</value>
+  </data>
+  <data name="OuiHopTCs.Text" xml:space="preserve">
+    <value>Créer un compte signifie votre pleine acceptation de la  </value>
+  </data>
+  <data name="BusinessCar.Text" xml:space="preserve">
+    <value>Est-ce une voiture ?</value>
+  </data>
+  <data name="Color.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="HomeAddressSearch.PlaceholderText" xml:space="preserve">
+    <value>Ville, code postal, rue</value>
+  </data>
+  <data name="HomeText.Text" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="partnerQuestion.Text" xml:space="preserve">
+    <value>Vous travaillez dans le site partenaire d’un OuiHop ?</value>
+  </data>
+  <data name="ComapnyText.Text" xml:space="preserve">
+    <value>Comapny</value>
+  </data>
+  <data name="ComapnyAddressSearch.PlaceholderText" xml:space="preserve">
+    <value>Ville, code postal, rue</value>
+  </data>
+  <data name="Comapnies.PlaceholderText" xml:space="preserve">
+    <value>Société/Campus</value>
+  </data>
+  <data name="Fotitle.Text" xml:space="preserve">
+    <value>AJOUTER UNE VOITURE</value>
+  </data>
+  <data name="Ftitle.Text" xml:space="preserve">
+    <value>INSCRIPTION</value>
+  </data>
+  <data name="Stitle.Text" xml:space="preserve">
+    <value>Qui es-tu ?</value>
+  </data>
+  <data name="Ttitle.Text" xml:space="preserve">
+    <value> LE TRAVAIL</value>
+  </data>
+  <data name="faceButtonText.Text" xml:space="preserve">
+    <value>Connectez-vous à l’aide votre</value>
+  </data>
+  <data name="UserEmailText.PlaceholderText" xml:space="preserve">
+    <value>adresse e-mail...</value>
+  </data>
+  <data name="UserPassword.PlaceholderText" xml:space="preserve">
+    <value>mot de passe...</value>
+  </data>
+  <data name="signinText.Text" xml:space="preserve">
+    <value>Dans le signe de votre courrier</value>
+  </data>
+  <data name="NoaccountText.Content" xml:space="preserve">
+    <value>Pas encore de compte ?</value>
+  </data>
+  <data name="ForgetPassTitle.Text" xml:space="preserve">
+    <value>OUBLIÉ MOT DE PASSE</value>
+  </data>
+  <data name="sumbitButton.Text" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="WebBrowserTitle.Text" xml:space="preserve">
+    <value>Terms &amp;Condations</value>
+  </data>
+  <data name="DriverButtonText.Text" xml:space="preserve">
+    <value>Conducteur </value>
+  </data>
+  <data name="PedestarianButtonText.Text" xml:space="preserve">
+    <value>Piéton</value>
+  </data>
+  <data name="GetEmailButtonText.Text" xml:space="preserve">
+    <value>Dans le signe de votre courrier</value>
+  </data>
+  <data name="GetfaceButtonText.Text" xml:space="preserve">
+    <value>Connectez-vous à l’aide votre</value>
+  </data>
+  <data name="SignInTerms.Text" xml:space="preserve">
+    <value>Créer un compte signifie votre pleine acceptation de la</value>
+  </data>
+  <data name="HaveAccount.Content" xml:space="preserve">
+    <value>J’ai déjà un compte</value>
+  </data>
+</root>

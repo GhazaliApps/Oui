@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Country.PlaceholderText" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="mail.PlaceholderText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Mobile.PlaceholderText" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="NewsMessage.Text" xml:space="preserve">
+    <value>I want to be kept informed on services news and other users experiences</value>
+  </data>
+  <data name="pass.PlaceholderText" xml:space="preserve">
+    <value>Password (min 4 characters)</value>
+  </data>
+  <data name="SponsorCode.PlaceholderText" xml:space="preserve">
+    <value>Sponsor code (optional)</value>
+  </data>
+  <data name="FN.PlaceholderText" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="LN.PlaceholderText" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="PicDescription.Text" xml:space="preserve">
+    <value>Add a picture in your profile </value>
+  </data>
+  <data name="EditPicDescription.Text" xml:space="preserve">
+    <value>Edit your Profile Picture</value>
+  </data>
+  <data name="Gender.PlaceholderText" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="cancelPicture.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Man.Content" xml:space="preserve">
+    <value>MALE</value>
+  </data>
+  <data name="pickPicture.Text" xml:space="preserve">
+    <value>Choose picture from gallery</value>
+  </data>
+  <data name="takePicture.Text" xml:space="preserve">
+    <value>Take a picture</value>
+  </data>
+  <data name="Woman.Content" xml:space="preserve">
+    <value>WOMAN</value>
+  </data>
+  <data name="Year.PlaceholderText" xml:space="preserve">
+    <value>year</value>
+  </data>
+  <data name="carModel.PlaceholderText" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="carPlate.PlaceholderText" xml:space="preserve">
+    <value>Registration plate</value>
+  </data>
+  <data name="CarsBrands.PlaceholderText" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="FirstPedDes.Text" xml:space="preserve">
+    <value>Get access to the driver journey available around you in real-time</value>
+  </data>
+  <data name="SecondPedDes.Text" xml:space="preserve">
+    <value>Get access to the driver journey available around you in real-time</value>
+  </data>
+  <data name="ThirdPedDes.Text" xml:space="preserve">
+    <value>3 free trip/day</value>
+  </data>
+  <data name="FirstDriverDes.Text" xml:space="preserve">
+    <value>Enter your destination in OuiHop’ and then launch your regular GPS</value>
+  </data>
+  <data name="HaveAccount.Content" xml:space="preserve">
+    <value>I already have an account</value>
+  </data>
+  <data name="SecondDriverDes.Text" xml:space="preserve">
+    <value>Receive pedestrian’s ride request while driving</value>
+  </data>
+  <data name="ThirdDriverDes.Text" xml:space="preserve">
+    <value>While driving, you earn hopiz to be redeemed against vouchers</value>
+  </data>
+  <data name="OuiHopTCs.Text" xml:space="preserve">
+    <value>Creating an account means your full acceptance of the  </value>
+  </data>
+  <data name="SelectionInfo.Text" xml:space="preserve">
+    <value>You can change your choice at anytime in the menu</value>
+  </data>
+  <data name="SelectionText.Text" xml:space="preserve">
+    <value>Are you rather ?</value>
+  </data>
+  <data name="BusinessCar.Text" xml:space="preserve">
+    <value>Is it a business car ?</value>
+  </data>
+  <data name="Color.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Comapnies.PlaceholderText" xml:space="preserve">
+    <value>Company/Campus</value>
+  </data>
+  <data name="ComapnyAddressSearch.PlaceholderText" xml:space="preserve">
+    <value>City, zipcode, street</value>
+  </data>
+  <data name="ComapnyText.Text" xml:space="preserve">
+    <value>Comapny</value>
+  </data>
+  <data name="HomeAddressSearch.PlaceholderText" xml:space="preserve">
+    <value>City, zipcode, street</value>
+  </data>
+  <data name="HomeText.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="partnerQuestion.Text" xml:space="preserve">
+    <value>Are you working in a OuiHop’s partner site ?</value>
+  </data>
+  <data name="Fotitle.Text" xml:space="preserve">
+    <value>ADD A CAR</value>
+  </data>
+  <data name="Ftitle.Text" xml:space="preserve">
+    <value>REGISTRATION</value>
+  </data>
+  <data name="Stitle.Text" xml:space="preserve">
+    <value>WHO ARE YOU ?</value>
+  </data>
+  <data name="Ttitle.Text" xml:space="preserve">
+    <value>HOME / WORK</value>
+  </data>
+  <data name="faceButtonText.Text" xml:space="preserve">
+    <value>Sign in with your</value>
+  </data>
+  <data name="UserEmailText.PlaceholderText" xml:space="preserve">
+    <value>email address ...</value>
+  </data>
+  <data name="UserPassword.PlaceholderText" xml:space="preserve">
+    <value>password ...</value>
+  </data>
+  <data name="ForgetPassTitle.Text" xml:space="preserve">
+    <value>FORGET PASSWORD</value>
+  </data>
+  <data name="NoaccountText.Content" xml:space="preserve">
+    <value>No Account yet ?</value>
+  </data>
+  <data name="signinText.Text" xml:space="preserve">
+    <value>Sign In With your mail</value>
+  </data>
+  <data name="sumbitButton.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="WebBrowserTitle.Text" xml:space="preserve">
+    <value>Terms &amp; Condations</value>
+  </data>
+  <data name="DriverButtonText.Text" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="PedestarianButtonText.Text" xml:space="preserve">
+    <value>Pedestrian</value>
+  </data>
+  <data name="GetEmailButtonText.Text" xml:space="preserve">
+    <value>Sign In With your mail</value>
+  </data>
+  <data name="GetfaceButtonText.Text" xml:space="preserve">
+    <value>Sign in with your</value>
+  </data>
+  <data name="SignInTerms.Text" xml:space="preserve">
+    <value>Creating an account means your full acceptance of the</value>
+  </data>
+</root>
